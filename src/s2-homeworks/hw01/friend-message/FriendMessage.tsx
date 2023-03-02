@@ -30,7 +30,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 <img
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
-                    src="https://sun9-13.userapi.com/impg/nnpHrfDRM9d7QV-uqizF4d88WDrJK1f3z0J0ig/DwexDKfALTY.jpg?size=749x681&quality=95&sign=44ea026a328a18d763e2a4594ea5c272&type=album"
+                    src="https://sun9-12.userapi.com/impg/XeCpZ7CJ09s0Q509YFb23f4oC328B_Ka0_X7PQ/B0Td5417uS0.jpg?size=192x192&quality=95&sign=a377b1f413d33f47a3067b33e29741e5&type=album"
                     //
                 />
                 <div className={s.friendText}>
@@ -39,7 +39,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         className={s.friendName}
                     >
                         {/*создаёт студент*/}
-                        <div><h1>Dmitry</h1></div>
+                        <b>Ivan</b>
                         {/**/}
                     </div>
                     <pre
@@ -47,7 +47,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-                        <div><h1>Hello Guys</h1></div>
+                        <a>Hello, how are you, what did you do yesterday?</a>
                         {/**/}
                     </pre>
                 </div>
@@ -57,7 +57,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 className={s.friendTime}
             >
                 {/*создаёт студент*/}
-                <div><h3>23:00</h3></div>
+                <div><h3>9:00</h3></div>
                 {/**/}
             </div>
         </div>

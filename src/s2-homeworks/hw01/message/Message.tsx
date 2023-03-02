@@ -29,26 +29,27 @@ const Message = (props: MessagePropsType) => {
                 <img
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
-                    src="https://sun9-50.userapi.com/impg/Xy1Cf5fIOwNdM-F9Rqh8Z7dBHB-9pB_-74JuhQ/hkiADB2TWTg.jpg?size=895x928&quality=96&sign=be02b0cbe185901a11b35f486b070bb3&type=album"
+                    src={"https://sun9-12.userapi.com/impg/XeCpZ7CJ09s0Q509YFb23f4oC328B_Ka0_X7PQ/B0Td5417uS0.jpg?size=192x192&quality=95&sign=a377b1f413d33f47a3067b33e29741e5&type=album"}
                     //
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {/*создаёт студент*/}
-                    
-                    <div><h1>Evgeniy</h1></div>
+                        <b>Ivan</b>
+                        
+                        
                         {/**/}
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-                    <div><h1>Hello Guys</h1></div>
+                    <a>Hello, she didn't do anything and rested all day, how are you?</a>
                         {/**/}
                     </pre>
                 </div>
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
-            <div><h3>23:00</h3></div>
+            <div><h3>09:01</h3></div>
                 {/**/}
             </div>
         </div>
