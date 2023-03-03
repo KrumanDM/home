@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Message.module.css'
+import img from '../avatar.png'
 
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
@@ -29,27 +30,27 @@ const Message = (props: MessagePropsType) => {
                 <img
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
-                    src={"https://sun9-12.userapi.com/impg/XeCpZ7CJ09s0Q509YFb23f4oC328B_Ka0_X7PQ/B0Td5417uS0.jpg?size=192x192&quality=95&sign=a377b1f413d33f47a3067b33e29741e5&type=album"}
+                    src={img}
                     //
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
                         {/*создаёт студент*/}
-                        <b>Ivan</b>
+                        {props.message.user.name}
                         
                         
                         {/**/}
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-                    <a>Hello, she didn't do anything and rested all day, how are you?</a>
+                        {props.message.message.text}
                         {/**/}
                     </pre>
                 </div>
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
-            <div><h3>09:01</h3></div>
+                {props.message.message.time}
                 {/**/}
             </div>
         </div>

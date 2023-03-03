@@ -1,12 +1,13 @@
 import React from 'react'
 import s from './FriendMessage.module.css'
+import img from '../avatar.png'
 
 export type MessagePropsType = {
     message: PropsType
+    
 }
 type PropsType = {
     id: number
-
     user: PropsT 
     message: PropsTT
 }
@@ -22,7 +23,7 @@ type PropsTT = {
 // создать тип вместо any и отобразить приходящие данные
 const FriendMessage = (props: MessagePropsType) => {
     return (
-        <div
+        <div 
             id={'hw1-friend-message-' + props.message.id}
             className={s.friendMessage}
         >
@@ -30,7 +31,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 <img
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
-                    src="https://sun9-12.userapi.com/impg/XeCpZ7CJ09s0Q509YFb23f4oC328B_Ka0_X7PQ/B0Td5417uS0.jpg?size=192x192&quality=95&sign=a377b1f413d33f47a3067b33e29741e5&type=album"
+                    src={img}
                     //
                 />
                 <div className={s.friendText}>
@@ -39,7 +40,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         className={s.friendName}
                     >
                         {/*создаёт студент*/}
-                        <b>Ivan</b>
+                        {props.message.user.name}
                         {/**/}
                     </div>
                     <pre
@@ -47,7 +48,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-                        <a>Hello, how are you, what did you do yesterday?</a>
+                        {props.message.message.text}
                         {/**/}
                     </pre>
                 </div>
@@ -57,7 +58,7 @@ const FriendMessage = (props: MessagePropsType) => {
                 className={s.friendTime}
             >
                 {/*создаёт студент*/}
-                <div><h3>9:00</h3></div>
+                {props.message.message.time}
                 {/**/}
             </div>
         </div>
