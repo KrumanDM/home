@@ -60,7 +60,6 @@ function HW2() {
         // need to fix
         // это просто функция стрелочник-она засетает, то что сделает deleteAffair
         // setAffairs(вызываю функцию(передаю аргументы))
-        
         setAffairs(deleteAffair(affairs,_id))
     
     }
