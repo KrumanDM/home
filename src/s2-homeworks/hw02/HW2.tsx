@@ -46,7 +46,6 @@ export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<Aff
     // need to fix
     // отбрасывай при помощи метода filter лишних affairs
     return affairs.filter((el) => el._id !== _id)
-    
     //  return filteredTasks // need to fix
 }
 
