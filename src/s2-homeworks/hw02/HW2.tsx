@@ -79,3 +79,38 @@ function HW2() {
 }
 
 export default HW2
+
+export type courseType = {
+    js:number
+    css: number
+    html: number
+}
+
+const course = [
+    {title:"js", price:200},
+    {title:"css", price:250},
+    {title:"hrml", price:300},
+]
+
+const courses = (props:courseType) => {
+ return course.filter((el) => el.price >250) 
+}
+
+
+export type courseTypes = {
+    name:string
+    age: number
+    
+}
+
+
+let people = [
+    {name: "Alexander", age: 14 },
+    {name: "Alex", age: 12 },
+    {name: "Dima", age: 22 },
+]
+
+let dylan = people.map((el) =>el.name)
+
+console.log(dylan)
+    
