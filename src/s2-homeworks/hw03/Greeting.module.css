@@ -17,6 +17,9 @@
 }
 
 .button {
+    background: #0066CC;
+opacity: 0.5;
+border-radius: 3px;
 }
 
 .button:focus {
