@@ -23,8 +23,8 @@ export type UserType = {
     name: string // need to fix any
 }
 
-export const pureAddUserCallback = (name: string, setUsers: any, users: string) => { // need to fix any
-    const user = {name:name, users:users // need to fix 
+export const pureAddUserCallback = (name: string, setUsers: ()=>void, users: string[]) => { // need to fix any
+    const user = {_id:users, name:name // need to fix 
     }
     setUsers([...users, user])
 }

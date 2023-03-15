@@ -7,14 +7,23 @@ type GreetingContainerPropsType = {
     addUserCallback: (name:string) => void  // need to fix any
 }
 
-export const pureAddUser = (name: any, setError: any, setName: any, addUserCallback: any) => {
+export const pureAddUser = (name: string, setError: any, setName: any, addUserCallback: any) => {
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
+if (name === "") {
+   return setError("Ошибка! Введите имя!")
+} else return(
+    addUserCallback(name),
+    setName("")
+)
 }
 
-export const pureOnBlur = (name: any, setError: any) => { // если имя пустое - показать ошибку
+export const pureOnBlur = (name: string, setError: (title:string)=>void) => { // если имя пустое - показать ошибку
+    if (name === "") {
+        return setError("Ошибка! Введите имя!")
 }
 
 export const pureOnEnter = (e: any, addUser: any) => { // если нажата кнопка Enter - добавить
+
 }
 
 // более простой и понятный для новичков
