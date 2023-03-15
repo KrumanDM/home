@@ -27,6 +27,7 @@ export const pureAddUserCallback = (name: string, setUsers: any, users: UserType
     const user = {_id:v1(), name:name // need to fix 
     }
     setUsers([...users, user])
+    
 }
 
 const HW3 = () => {
@@ -34,6 +35,7 @@ const HW3 = () => {
     
     const addUserCallback = (name: string) => { // need to fix any
         pureAddUserCallback(name, setUsers, users)
+        
     }
 
     return (
