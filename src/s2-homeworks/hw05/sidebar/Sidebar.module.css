@@ -1,13 +1,15 @@
 .sidebar {
     display: none;
+    
 }
 
 .sidebar.open {
     display: block;
+    
 }
 
 .background {
-     
+    
 }
 
 .nav {  
@@ -29,14 +31,27 @@
 }
 
 .nav a {
+    /* border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s; */
 }
 
 .nav a:hover {
     
-
+    /* background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); */
 }
 
 .nav a.active {
+    
 }
 .close {
     position: absolute;
