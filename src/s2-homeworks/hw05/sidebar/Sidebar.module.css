@@ -14,8 +14,8 @@
   display: flex;
   flex-direction: column;
   /* // выше это для колонок что бы текст выстроился в колонку */
- padding: 80px;
- font-size: 30px;
+  padding: 80px;
+  font-size: 30px;
 /* // выше работаем с размещением текста и шрифтом  */
   width: 317px;
   height: 720px;
