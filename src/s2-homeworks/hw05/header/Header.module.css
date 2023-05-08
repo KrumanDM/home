@@ -1,25 +1,28 @@
 .burgerMenuIcon {
-    /* width: 50px;
-    text-align: left; */
+    width: 50px;
+    
     float: left;
     clear: right;
     
 }
 
 .header {
-    /* background-color: white;
-    
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    /* padding: 10px; */ 
+    padding: 20px; 
     display: inline-block;
-    width: 100%;
+    width: 105%;
     box-sizing: border-box;
-    
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    /* выше 2 параметра на затемнение снизу */
+    height: 70px;
+
 }
 
 
+
 .header h1 {
-    /* text-align: right; */
+   
     float: right;
     width: 10em;
     max-width: 100%;
