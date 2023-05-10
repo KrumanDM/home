@@ -1,9 +1,15 @@
 .sidebar {
     display: none;
+
+    
+    
 }
 
 .sidebar.open {
     display: block;
+    /* transition: 1s;
+    transform: translate(-100%); */
+
 }
 
 .background {
@@ -11,6 +17,7 @@
 }
 
 .nav {  
+
   display: flex;
   flex-direction: column;
 /* // выше это для колонок что бы текст выстроился в колонку */
@@ -28,6 +35,10 @@
 
   line-height: 80px;
 
+
+  
+  
+  
 }
 
 .nav a {
@@ -35,11 +46,12 @@
 }
 
 .nav a:hover {
+  
     
 }
 
 .nav a.active {
-    
+    /* transform: translateX(0%); */
 }
 .close {
     position: absolute;
