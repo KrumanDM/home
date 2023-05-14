@@ -1,6 +1,6 @@
 .burgerMenuIcon {
     width: 50px;
-    
+
     float: left;
     clear: right;
     
@@ -11,7 +11,6 @@
     display: inline-block;
     width: 105%;
     box-sizing: border-box;
-
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
     padding: 10px;
     /* выше 2 параметра на затемнение снизу */
