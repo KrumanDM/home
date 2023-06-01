@@ -31,8 +31,9 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                     <NavLink
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
-                      
+                        
                         className= {({isActive}) => (isActive ? s.active : '')}
+                        
                     >
                         Pre-junior
                     </NavLink>

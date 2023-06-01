@@ -11,6 +11,7 @@ import s from './HW6.module.css'
  * 3 - сделать стили в соответствии с дизайном
  */
 
+
 const HW6 = () => {
     const [value, setValue] = useState<string>('')
 
@@ -19,7 +20,8 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        // ЗАСЕТАТЬ(restoreState<ТИПИЗАЦИЯ>(КЛЮЧ,''))
+        restoreState<string>(value,'hw6-restore-span-value')
     }
 
     return (
