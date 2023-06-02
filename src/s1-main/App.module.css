@@ -9,8 +9,25 @@
 
 .hwTitle {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+    position: relative;
+    left: 17px;
+    top:25px;
+
+
+    
+    
+     
+    
+    
+
+    
+    
+    
+
+    
+    
 }

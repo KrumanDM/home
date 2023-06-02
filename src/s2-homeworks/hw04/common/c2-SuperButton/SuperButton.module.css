@@ -1,5 +1,6 @@
 .button {
     background-color: cadetblue;
+    position: relative;
 }
 
 .disabled {
@@ -10,7 +11,7 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
+position: relative;
 width: 133px;
 height: 30px;
 left: 574px;
@@ -29,15 +30,17 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
-width: 149px;
+position: relative;
+width: 115px;
 height: 30px;
-left: 574px;
-top: 418px;
+left: 140px;
+top: 40px;
 
 background: #C9E5FF;
 border: 1px solid #0066CC;
 border-radius: 3px;
+
+
 
 }
 
@@ -49,13 +52,13 @@ border-radius: 3px;
     padding: 5px 24px;
     gap: 10px;
     
-    position: absolute;
-    width: 149px;
+    position: relative;
+    width: 110px;
     height: 30px;
-    left: 574px;
-    top: 261px;
+    left: 17px;
+    top: 70px;
     
-    background: #0059B3;
+    background: #0066CC;
     border-radius: 3px;
 }
 
@@ -67,7 +70,7 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
+position: relative;
 width: 149px;
 height: 30px;
 left: 574px;
@@ -96,11 +99,11 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
-width: 167px;
-height: 30px;
-left: 574px;
-top: 261px;
+position: relative;
+    width: 110px;
+    height: 30px;
+    left: 17px;
+    top: 70px;
 
 background: #0080FF;
 border-radius: 3px;
@@ -115,11 +118,11 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
-width: 167px;
+position: relative;
+width: 115px;
 height: 30px;
-left: 574px;
-top: 418px;
+left: 140px;
+top: 40px;
 
 background: #E5F0FA;
 border: 1px solid #0066CC;
@@ -134,7 +137,7 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: absolute;
+position: relative;
 width: 167px;
 height: 30px;
 left: 574px;

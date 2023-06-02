@@ -1,11 +1,23 @@
 .spanBlock {
+    position: relative;
+    left: 17px;
+    top:53px;
+    
 }
 
 .span {
+    
+    color: #0080FF;
 }
 
 .input {
+    
+
+   background-color: #0080FF;
+    
+    
 }
 
 .pen {
+    
 }
