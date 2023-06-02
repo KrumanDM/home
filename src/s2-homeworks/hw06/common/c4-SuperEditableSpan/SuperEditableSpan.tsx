@@ -51,7 +51,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         // выключить editMode при нажатии за пределами инпута // делают студенты
         
         setEditMode(false)
-        debugger;
+        
         onBlur?.(e)
     }
     const onDoubleClickCallBack = (
@@ -60,7 +60,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         // включить editMode при двойном клике // делают студенты
         
         setEditMode(true)
-            
+           
         
         onDoubleClick?.(e)
     }
