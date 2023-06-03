@@ -32,6 +32,7 @@ const HW6 = () => {
             <div className={s2.hw}>
                 <div className={s.editableSpanContainer}>
                     <SuperEditableSpan
+    
                         id={'hw6-spanable-input'}
                         value={value}
                         onChangeText={setValue}
@@ -39,6 +40,7 @@ const HW6 = () => {
                             id: 'hw6-editable-span',
                             defaultText: 'enter text...',
                         }}
+                        
                     />
                 </div>
 

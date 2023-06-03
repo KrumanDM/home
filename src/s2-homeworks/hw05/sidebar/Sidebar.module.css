@@ -16,7 +16,8 @@
 }
 
 .nav {  
-  
+  position: absolute;
+
   display: flex;
   flex-direction: column;
 /* // выше это для колонок что бы текст выстроился в колонку */

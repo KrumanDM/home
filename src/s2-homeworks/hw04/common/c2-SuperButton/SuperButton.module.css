@@ -1,6 +1,6 @@
 .button {
     background-color: cadetblue;
-    position: relative;
+    
 }
 
 .disabled {
@@ -11,11 +11,8 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-width: 133px;
-height: 30px;
-left: 574px;
-top: 369px;
+
+
 
 background: #004D99;
 opacity: 0.5;
@@ -30,11 +27,9 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-width: 115px;
-height: 30px;
-left: 140px;
-top: 40px;
+margin-left: 150px;
+margin-top: -28px;
+
 
 background: #C9E5FF;
 border: 1px solid #0066CC;
@@ -52,11 +47,10 @@ border-radius: 3px;
     padding: 5px 24px;
     gap: 10px;
     
-    position: relative;
-    width: 110px;
-    height: 30px;
-    left: 17px;
-    top: 70px;
+    margin-left: 17px;
+    margin-top: 15px;
+    
+    
     
     background: #0066CC;
     border-radius: 3px;
@@ -70,11 +64,8 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-width: 149px;
-height: 30px;
-left: 574px;
-top: 315px;
+
+
 
 background: #B31232;
 border-radius: 3px;
@@ -99,11 +90,8 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-    width: 110px;
-    height: 30px;
-    left: 17px;
-    top: 70px;
+
+    
 
 background: #0080FF;
 border-radius: 3px;
@@ -118,11 +106,8 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-width: 115px;
-height: 30px;
-left: 140px;
-top: 40px;
+
+
 
 background: #E5F0FA;
 border: 1px solid #0066CC;
@@ -137,11 +122,7 @@ align-items: center;
 padding: 5px 24px;
 gap: 10px;
 
-position: relative;
-width: 167px;
-height: 30px;
-left: 574px;
-top: 315px;
+
 
 background: #FF1A47;
 border-radius: 3px;
