@@ -15,7 +15,9 @@
 
 .options {
     margin-left: 135px;
-    
+    margin-bottom: 200px;
+    margin-top: -20px;
+
     display: flex;
     flex-direction: column;
     
