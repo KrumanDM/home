@@ -34,7 +34,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         to={PATH.PRE_JUNIOR}
                         
                         className= {({isActive}) => (isActive ? s.active : '')}
-                        
+                        onClick={handleClose}
                     >
                         Pre-junior
                     </NavLink>
@@ -44,6 +44,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                        
                         // className={...} // делает студент
                         className= {({isActive}) => (isActive ? s.active : '')}
+                        onClick={handleClose}
                     >
                         Junior
                     </NavLink>
@@ -52,6 +53,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         to={PATH.JUNIOR_PLUS}
                      
                         className= {({isActive}) => (isActive ? s.active : '')}
+                        onClick={handleClose}
                     >
                         Junior Plus
                     </NavLink>
