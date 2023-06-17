@@ -1,5 +1,5 @@
 .button {
-    background-color: cadetblue;
+
     
 }
 
@@ -12,48 +12,27 @@ padding: 5px 24px;
 gap: 10px;
 
 
-
-
 background: #004D99;
 opacity: 0.5;
 border-radius: 3px;
 }
 
 .secondary {
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
 padding: 5px 24px;
 gap: 10px;
-
-margin-left: 150px;
-margin-top: -28px;
-
 
 background: #C9E5FF;
 border: 1px solid #0066CC;
 border-radius: 3px;
-
-
-
 }
 
 .default {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 5px 24px;
-    gap: 10px;
-    
-    margin-left: 17px;
-    margin-top: 15px;
-    
-    
-    
-    background: #0066CC;
-    border-radius: 3px;
+gap: 10px;
+
+background: #C9E5FF;
+border: 1px solid #0066CC;
+border-radius: 3px;
 }
 
 .red {
@@ -99,12 +78,8 @@ border-radius: 3px;
 }
 
 .secondary:active {
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 5px 24px;
-gap: 10px;
+    padding: 5px 24px;
+    gap: 10px;
 
 
 
