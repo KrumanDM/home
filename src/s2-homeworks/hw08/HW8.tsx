@@ -11,6 +11,7 @@ import User from './User'
 * 3 - сделать стили в соответствии с дизайном
 * */
 
+
 export type UserType = {
     _id: number
     name: string
