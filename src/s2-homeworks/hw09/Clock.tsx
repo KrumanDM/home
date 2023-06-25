@@ -55,7 +55,6 @@ setShow(false)
     const stringDay = formatterDay.format(date) || <br/> // пишут студенты
     
     let formatterMonth = new Intl.DateTimeFormat("en-US", {
-        
         month: "long"
       });
     const stringMonth = formatterMonth.format(date) || <br/> // пишут студенты
