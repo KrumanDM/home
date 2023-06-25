@@ -41,6 +41,7 @@ setShow(false)
         second: "2-digit"
       });
     const stringTime = formatterHMS.format(date) || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
+    
     let formatterDMY = new Intl.DateTimeFormat("en-US", {
         day: "2-digit",
         year: "2-digit",
