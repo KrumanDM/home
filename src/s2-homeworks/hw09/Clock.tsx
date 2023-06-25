@@ -35,6 +35,7 @@ setShow(true)
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
 setShow(false)
     }
+    
     let formatterHMS = new Intl.DateTimeFormat("ru", {
         hour: "2-digit",
         minute: "2-digit",
