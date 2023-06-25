@@ -30,10 +30,10 @@ function Clock() {
     }
 
     const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
-setShow(true)
+        setShow(true)
     }
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
-setShow(false)
+        setShow(false)
     }
     
     let formatterHMS = new Intl.DateTimeFormat("ru", {
