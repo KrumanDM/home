@@ -15,12 +15,14 @@ function Clock() {
             setDate(new Date())
         }, 1000)
         setTimerId(id)
+        
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
 
     }
 
     const stop = () => {
+
         if(timerId){
             clearInterval(timerId);
             setTimerId(undefined)
@@ -92,14 +94,15 @@ function Clock() {
             <div className={s.buttonsContainer}>
                 <SuperButton
                     id={'hw9-button-start'}
-                    disabled={false} // пишут студенты // задизэйблить если таймер запущен
+                    disabled={(timerId != undefined) ? true : false}  // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}
+                    
                 >
                     start
                 </SuperButton>
                 <SuperButton
                     id={'hw9-button-stop'}
-                    disabled={true} // пишут студенты // задизэйблить если таймер не запущен
+                    disabled={(timerId === undefined) ? true : false} // пишут студенты // задизэйблить если таймер не запущен
                     onClick={stop}
                 >
                     stop
