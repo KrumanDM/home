@@ -44,10 +44,10 @@ function Clock() {
       });
     const stringTime = formatterHMS.format(date) || <br/> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
     
-    let formatterDMY = new Intl.DateTimeFormat("en-US", {
+    let formatterDMY = new Intl.DateTimeFormat("ru", {
         day: "2-digit",
-        year: "2-digit",
-        month: "2-digit"
+        month: "2-digit",
+        year: "numeric"
       });
     const stringDate = formatterDMY.format(date) || <br/> // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
