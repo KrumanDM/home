@@ -82,7 +82,6 @@ function Clock() {
                         <>
                             <span id={'hw9-date'}>{stringDate}</span>,{' '}
                             <span id={'hw9-month'}>{stringMonth}</span>
-
                         </>
                     ) : (
                         <>
