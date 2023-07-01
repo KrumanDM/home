@@ -97,7 +97,7 @@ function Clock() {
                     disabled={(timerId != undefined) ? true : false}  // пишут студенты // задизэйблить если таймер запущен
                     onClick={start}  
                 >
-                    start
+                     start
                 </SuperButton>
                 <SuperButton
                     id={'hw9-button-stop'}
