@@ -11,7 +11,8 @@
 .clock {
 }
 
-.watch {display: flex;
+.watch {
+    display: flex;
     margin-left: 17px;
 }
 
@@ -19,6 +20,7 @@
     
 }
 
-.more {display: flex;
+.more {
+    display: flex;
     margin-left: 17px;
 }
