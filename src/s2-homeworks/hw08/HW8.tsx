@@ -88,7 +88,6 @@ const HW8 = () => {
                             <td className={s.nameCol}>Name</td>
                             <td className={s.ageCol}>Age</td>
                         </tr>
-
                         </thead>
                         <tbody>{finalPeople}</tbody>
                     </table>
