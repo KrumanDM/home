@@ -17,7 +17,7 @@ const HW9 = () => {
             <div className={s2.hw}>
                 <Clock />
             
-            </div>
+    </div>
         </div>
     )
 }
