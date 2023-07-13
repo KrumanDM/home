@@ -24,7 +24,7 @@ function Clock() {
 
         if(timerId){
             clearInterval(timerId);
-            setTimerId(undefined)
+            setTimerId(undefined);
         }
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
     }
