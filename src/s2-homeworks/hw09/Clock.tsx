@@ -93,7 +93,7 @@ function Clock() {
             <div className={s.buttonsContainer}>
                 <SuperButton
                     id={'hw9-button-start'}
-                    disabled={(timerId != undefined) ? true : false}// задизэйблить если таймер запущен
+                    disabled={(timerId != undefined) ? true : false}// задизэйблить если таймер запущен, как только запускается таймер он получает timerId
                     onClick={start}  
                 >
                     start
