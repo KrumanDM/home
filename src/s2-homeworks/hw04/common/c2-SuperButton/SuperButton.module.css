@@ -1,6 +1,4 @@
 .button {
-
-    
 }
 
 .disabled {
@@ -10,7 +8,6 @@
     align-items: center;
     padding: 5px 24px;
     gap: 10px;
-
 
     background: #004D99;
     opacity: 0.5;
@@ -43,9 +40,6 @@
     padding: 5px 24px;
     gap: 10px;
 
-
-
-
     background: #B31232;
     border-radius: 3px;
 }
@@ -69,9 +63,6 @@
     padding: 5px 24px;
     gap: 10px;
 
-
-
-
     background: #0080FF;
     border-radius: 3px;
     
@@ -80,9 +71,6 @@
 .secondary:active {
     padding: 5px 24px;
     gap: 10px;
-
-
-
 
     background: #E5F0FA;
     border: 1px solid #0066CC;
@@ -95,8 +83,6 @@
     align-items: center;
     padding: 5px 24px;
     gap: 10px;
-
-
 
     background: #FF1A47;
     border-radius: 3px;
