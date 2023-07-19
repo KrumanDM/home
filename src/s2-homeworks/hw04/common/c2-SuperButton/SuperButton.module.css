@@ -37,17 +37,17 @@
 
 .red {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 5px 24px;
-gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
 
 
 
 
-background: #B31232;
-border-radius: 3px;
+    background: #B31232;
+    border-radius: 3px;
 }
 
 .default:hover {
