@@ -18,21 +18,21 @@
 }
 
 .secondary {
-padding: 5px 24px;
-gap: 10px;
+    padding: 5px 24px;
+    gap: 10px;
 
-background: #C9E5FF;
-border: 1px solid #0066CC;
-border-radius: 3px;
+    background: #C9E5FF;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 .default {
     padding: 5px 24px;
-gap: 10px;
+    gap: 10px;
 
-background: #C9E5FF;
-border: 1px solid #0066CC;
-border-radius: 3px;
+    background: #C9E5FF;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
 }
 
 .red {
