@@ -12,7 +12,7 @@
 }
 
 .buttonsContainer {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-left: 120px;
