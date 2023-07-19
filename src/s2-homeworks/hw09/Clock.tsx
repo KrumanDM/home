@@ -21,7 +21,6 @@ function Clock() {
     }
 
     const stop = () => {
-
         if(timerId){
             clearInterval(timerId);
             setTimerId(undefined);
