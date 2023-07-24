@@ -82,6 +82,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         alt={'edit'}
                     />
             
+            
                     <span
                         onDoubleClick={onDoubleClickCallBack}
                         className={spanClassName}
