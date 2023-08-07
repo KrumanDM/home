@@ -107,7 +107,7 @@ function Clock() {
                 </SuperButton>
             </div>
         </div>
-    )
+    ) 
 }     
 
 export default Clock
