@@ -102,7 +102,7 @@ function Clock() {
                     id={'hw9-button-stop'}
                     disabled={(timerId === undefined) ? true : false}  // задизэйблить если таймер не запущен,как только запускается таймер он получает timerId
                     onClick={stop}
-                >
+                > 
                     stop
                 </SuperButton>
             </div>
