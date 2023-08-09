@@ -104,10 +104,11 @@ function Clock() {
                     onClick={stop}
                 > 
                     stop
-                </SuperButton> 
+                </SuperButton>   
             </div>
         </div>
     )   
 }     
 
 export default Clock
+ 
