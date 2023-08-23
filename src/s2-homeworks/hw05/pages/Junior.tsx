@@ -8,8 +8,8 @@ function Junior() {
     return (
         <div id={'hw5-page-junior'}>
             {/* <HW6 /> */}
-             {/* <HW7 /> */}
-            <HW8 />sad
+            {/* <HW7 /> */}
+            <HW8 />
             {/* <HW9 />  */}
         </div>
     )
