@@ -102,22 +102,22 @@ export default SuperEditableSpan
 
 
 
-// let [editMode, setEditMode] = useState(false)
-//     let [title, setTitle] = useState('')
+let [editMode, setEditMode] = useState(false)
+    let [title, setTitle] = useState('')
     
-//     const activateEditMode = () => {
-//         setEditMode(true)
-//         setTitle(props.title) /*Для отображения изначального значения инпута в инпуте */
-//     }
-//     const activateViewMode = () => {
-//         setEditMode(false)
-//         props.onChange(title)/*Для отображения что сохранились изменения */
-//     }
-//     const onChangeTitleHandler = (e: ChangeEvent<HTMLInputElement>) =>{ setTitle(e.currentTarget.value)/*Функция для того что бы в инпуте мы могли что то написать */
+    const activateEditMode = () => {
+        setEditMode(true)
+        setTitle(props.title) /*Для отображения изначального значения инпута в инпуте */
+    }
+    const activateViewMode = () => {
+        setEditMode(false)
+        props.onChange(title)/*Для отображения что сохранились изменения */
+    }
+    const onChangeTitleHandler = (e: ChangeEvent<HTMLInputElement>) =>{ setTitle(e.currentTarget.value)/*Функция для того что бы в инпуте мы могли что то написать */
     
-// }
-//     return( editMode 
-//         ? <input value={title} onChange={onChangeTitleHandler} onBlur={activateViewMode} autoFocus></input> /*При уборе убирается инпут */
-//         : <span onDoubleClick={activateEditMode}>{props.title}</span>  /*При двойном клике появляется инпут */
-//         )
-// }
+}
+    return( editMode 
+        ? <input value={title} onChange={onChangeTitleHandler} onBlur={activateViewMode} autoFocus></input> /*При уборе убирается инпут */
+        : <span onDoubleClick={activateEditMode}>{props.title}</span>  /*При двойном клике появляется инпут */
+        )
+}
