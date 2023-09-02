@@ -41,7 +41,6 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     spanProps || {}
 
 
-    
     const onEnterCallback = () => {
         
         // выключить editMode при нажатии Enter // делают студенты
