@@ -60,6 +60,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         setEditMode(true)    
         onDoubleClick?.(e)
     }
+
     
 
     const spanClassName = s.span
