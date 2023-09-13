@@ -91,6 +91,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
 
 
+
                         {children || restProps.value || defaultText}
                     </span>
                 </div>
