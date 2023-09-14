@@ -9,7 +9,6 @@ function Clock() {
     const [date, setDate] = useState<Date>(new Date(restoreState('hw9-date', Date.now())))
     const [show, setShow] = useState<boolean>(false)
 
-    
 
     const start = () => {
         const id = +setInterval(()=>{
