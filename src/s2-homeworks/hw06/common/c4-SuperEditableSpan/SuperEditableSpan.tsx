@@ -98,7 +98,6 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
 export default SuperEditableSpan
  
-
 // let [editMode, setEditMode] = useState(false)
 //     let [title, setTitle] = useState('')
     
