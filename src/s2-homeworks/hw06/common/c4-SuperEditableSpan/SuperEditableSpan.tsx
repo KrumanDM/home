@@ -117,3 +117,5 @@ export default SuperEditableSpan
 //         : <span onDoubleClick={activateEditMode}>{props.title}</span>  /*При двойном клике появляется инпут */
 //         )
 // }
+
+
