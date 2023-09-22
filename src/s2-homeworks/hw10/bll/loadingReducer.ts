@@ -16,7 +16,6 @@ export const loadingReducer = (state = initState, action: ActionsType): BooleanT
             newState.isLoading = action.isLoading
             return newState
         }
-
         default:
             return state
     }
