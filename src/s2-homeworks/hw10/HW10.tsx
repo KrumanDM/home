@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {AppStoreType} from './bll/store'
-import {loadingAC} from './bll/loadingReducer'
+import {BooleanType, loadingAC} from './bll/loadingReducer'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s2 from '../../s1-main/App.module.css'
 import {Loader} from './Loader'
@@ -15,12 +15,35 @@ import {Loader} from './Loader'
 
 const HW10 = () => {
     // useSelector, useDispatch // пишет студент
-    const isLoading = false
+    const isLoading = useSelector<AppStoreType, boolean>(newState => newState.loading.isLoading)
+    
+    // const Loading = useSelector<AppStoreType, boolean>(newState => newState.loading.isLoading)
+    const dispatch = useDispatch();
+    
+    const timerIdRef = useRef<number>(0)
 
     const setLoading = () => { // пишет студент // показать крутилку на 1,5 секунд
         // dispatch
+        // const action = loadingAC(true);
+        // dispatch(action);
+        
+        // // setTimeout
+        // if (isLoading === true) {
+            
+        //     setTimeout(() => {
+        //         const action = loadingAC(false);
+        //         dispatch(action);
+        //       }, 1500)
+        // }
+        if (!isLoading) {
+            dispatch(loadingAC(true))
 
-        // setTimeout
+            clearTimeout(timerIdRef.current)
+
+            timerIdRef.current = window.setTimeout(() => {
+                dispatch(loadingAC(false))
+            }, 1500)
+        }
     }
 
     return (
