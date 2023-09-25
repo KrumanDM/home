@@ -45,7 +45,7 @@ const HW10 = () => {
             }, 1500)
         }
     }
-/.
+/
     return (
         <div id={'hw10'}>
             <div className={s2.hwTitle}>Homework #10</div>
