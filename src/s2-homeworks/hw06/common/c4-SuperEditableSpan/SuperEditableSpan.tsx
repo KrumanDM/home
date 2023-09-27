@@ -97,7 +97,6 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 }
 
 export default SuperEditableSpan
- 
 
 
 
