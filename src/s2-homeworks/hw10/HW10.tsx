@@ -35,6 +35,8 @@ const HW10 = () => {
         //         dispatch(action);
         //       }, 1500)
         // }
+        
+        ////2 примера выбрать один
         if (!isLoading) {
             dispatch(loadingAC(true))
 
@@ -44,7 +46,7 @@ const HW10 = () => {
                 dispatch(loadingAC(false))
             }, 1500)
         }
-        ////
+        
         if (!isLoading) {
             dispatch(loadingAC(true))
             const timeoutId = setTimeout(() => {
