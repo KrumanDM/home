@@ -36,8 +36,6 @@ const HW10 = () => {
         //       }, 1500)
         // }
         
-
-
         ////2 примера выбрать один
         if (!isLoading) {
             dispatch(loadingAC(true))
