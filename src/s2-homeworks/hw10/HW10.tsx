@@ -47,7 +47,7 @@ const HW10 = () => {
             }, 1500)
         }
         4
-    
+
         if (!isLoading) {
             dispatch(loadingAC(true))
             const timeoutId = setTimeout(() => {
