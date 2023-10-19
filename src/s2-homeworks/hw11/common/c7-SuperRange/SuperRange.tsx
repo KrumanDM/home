@@ -16,4 +16,3 @@ const SuperRange: React.FC<SliderProps> = (props) => {
 
 
 export default SuperRange
-
