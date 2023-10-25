@@ -15,8 +15,9 @@
   width: 372px;
   height: 36px;
   border-radius: 3px;
-
+  
   border-color: #D1D1D1;
+
   
 }
 
@@ -35,7 +36,14 @@ align-items: center;
 gap: 10px;
 flex-shrink: 0;
 border-radius: 3px;
+border: none;
+outline: none;
 background: var(--primary-100, #06C);
+color: var(--light-140, #FFF);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
   
 }
 
