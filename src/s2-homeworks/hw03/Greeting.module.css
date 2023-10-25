@@ -3,6 +3,7 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
 }
 
 .error {
