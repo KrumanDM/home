@@ -11,7 +11,12 @@
 }
 
 .input {
-    height: 20px;
+    display: flex;
+width: 372px;
+height: 36px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
 }
 
 .input:focus {
