@@ -62,6 +62,10 @@ line-height: 27px;
     width: 24px;
     top: 26px;
     right: 29px;
+
+    border: none;
+    outline: none;
+    background-color: #fff;
 }
 
 .close img {

@@ -38,19 +38,18 @@
     padding: 10px;
     background-color: #06C;
     border-radius: 10px;
-    position: relative;
+    
     
 
 }
 
 .text:after {
   content: '';
-  position: absolute;
-  left: 460px;
-  top:36px;
-  border: 11px solid transparent;
-  border-bottom: 11px solid #06C;
-
+  position:absolute;
+  left: 1289px;
+  height: 18px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #06C;
 }
 
 .name {
