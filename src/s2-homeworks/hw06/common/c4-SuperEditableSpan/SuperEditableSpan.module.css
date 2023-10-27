@@ -1,7 +1,6 @@
 .spanBlock {
     display: flex;
-    gap: 10px;
-    
+    gap: 10px;   
 }
 .span {
     color: #0080FF;
@@ -12,7 +11,7 @@ font-weight: 500;
 line-height: normal;
 }
 .input {
-   background-color: #0080FF;
+  
 }
 .pen {
     padding-bottom: 22px;
