@@ -18,7 +18,13 @@
 }
 
 .superInput {
-    
+    display: flex;
+width: 276px;
+height: 36px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-color: #D1D1D1;
 }
 
 .errorInput {

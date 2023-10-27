@@ -1,8 +1,18 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .wrapper {
+    display: flex;
+    width: 300px;
+    gap: 13px;
+    
 }
 
 .number {
+    display: flex;
+    
 }
+

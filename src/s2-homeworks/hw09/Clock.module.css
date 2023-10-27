@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.3rem;
-    margin-left: 12px;
     margin-top: 15px;
+    
 }
 
 .clock {
@@ -11,8 +11,7 @@
 }
 
 .watch {
-    display: flex;
-    margin-left: 17px;
+    
 }
 
 .watch strong {
@@ -20,6 +19,5 @@
 }
 
 .more {
-    display: flex;
-    margin-left: 17px;
+    
 }
