@@ -30,7 +30,6 @@ border-color: #D1D1D1;
 .errorInput {  
     border: 1px solid #CC1439;
     border-radius: 5px;
-
 }
 
 .errorInput:focus {
@@ -38,7 +37,6 @@ border-color: #D1D1D1;
 }
 
 .error {
-    
     color: #CC1439;
     
 }
