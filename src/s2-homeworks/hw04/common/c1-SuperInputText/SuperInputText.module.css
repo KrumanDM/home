@@ -27,14 +27,10 @@ flex-shrink: 0;
 border-color: #D1D1D1;
 }
 
-.errorInput {
-
-    
-  
+.errorInput {  
     border: 1px solid #CC1439;
     border-radius: 5px;
-    
-    
+
 }
 
 .errorInput:focus {
