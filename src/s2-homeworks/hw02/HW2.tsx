@@ -112,5 +112,5 @@ let people = [
 
 let dylan = people.map((el) =>el.name)
 
-console.log(dylan)
+
     

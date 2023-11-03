@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {MouseEventHandler, useEffect} from 'react'
 import s from './HW12.module.css'
 import s2 from '../../s1-main/App.module.css'
 import SuperSelect from '../hw07/common/c5-SuperSelect/SuperSelect'
@@ -13,17 +13,19 @@ import {changeThemeId} from './bll/themeReducer'
 * */
 
 const themes = [
-    {id: 1, value: 'light'},
-    {id: 2, value: 'blue'},
-    {id: 3, value: 'dark'},
+    {id: 1, value: 'Light'},
+    {id: 2, value: 'Blue'},
+    {id: 3, value: 'Dark'},
 ]
 
 const HW12 = () => {
     // взять ид темы из редакса
-    const themeId = 1
+    const dispatch = useDispatch()
+    const themeId = useSelector((state: {theme: {themeId: number}}) => state.theme.themeId)
+    
 
-    const change = (id: any) => { // дописать функцию
-
+    const change = (id: number) => { // дописать функцию
+       dispatch(changeThemeId(id))
     }
 
     useEffect(() => {
@@ -41,6 +43,9 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     // сделать переключение тем
+                    value={themeId}
+                    options={themes}
+                    onChangeOption={change}
 
                 />
             </div>

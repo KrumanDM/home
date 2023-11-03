@@ -19,5 +19,14 @@ html {
 }
 
 .select {
+    width: 171px;
+    height: 36px;
 
+    color: #000;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
