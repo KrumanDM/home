@@ -1,52 +1,41 @@
 .item {
-  
 }
 
 .item:last-of-type {
- 
 }
 
 .users {
-    display: flex;
-    flex-direction: column;
-    width: 606px;
-    background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 606px;
+  background-color: aqua;
 }
 
 .buttonsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-left: 265px;
-    margin-bottom: 18px;
-    
-      
-    
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-left: 265px;
+  margin-bottom: 18px;
 }
 
 .container {
-    
 }
 
 .thead {
-    display: flex;
-    
-    width: 606px;
-height: 36px;
-flex-shrink: 0;
-background-color: #E5E5E5;
+  display: flex;
 
-
+  width: 606px;
+  height: 36px;
+  flex-shrink: 0;
+  background-color: #e5e5e5;
 }
 
 .nameCol {
-    padding-left: 17px;
-    
+  padding-left: 17px;
 }
 
 .ageCol {
-    
-    padding: 7px;
-    padding-left: 255px;
+  padding: 7px;
+  padding-left: 255px;
 }
-
