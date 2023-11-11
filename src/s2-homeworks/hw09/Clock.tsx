@@ -25,9 +25,11 @@ function Clock() {
         }
         // пишут студенты // поставить часы на паузу, обнулить ид таймера (timerId <- undefined)
     }
+
     const onMouseEnter = () => { // пишут студенты // показать дату если наведена мышка
         setShow(true)
     }
+    
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
         setShow(false)
     }
