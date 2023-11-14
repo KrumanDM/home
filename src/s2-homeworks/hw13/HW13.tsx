@@ -46,7 +46,8 @@ const HW13 = () => {
                 setDisabledButton('initial');
             })
             .catch((e) => {
-                // дописать       
+                // дописать   
+                console.log(e)    
                 const status = e.response.status
                 setText(e.response?.data?.errorText ||e.message)
                 setInfo(e.response?.data?.info || e.name)
