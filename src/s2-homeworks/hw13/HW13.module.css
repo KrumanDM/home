@@ -1,49 +1,48 @@
 .buttonsContainer {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .responseContainer {
-    display: flex;
-    gap:94px;
+  display: flex;
+  gap: 94px;
 }
 
 .imageContainer {
-
 }
 
 .image {
-    display: flex;
-    padding-top: 90px;
-    padding-left: 40px;
+  display: flex;
+  padding-top: 90px;
+  padding-left: 40px;
 }
 
-.textContainer{
-    padding-top: 156px;
+.textContainer {
+  padding-top: 156px;
 }
 
 .code {
-    color: #000;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .text {
-    color: #000;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .info {
-    color: #000;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
