@@ -70,7 +70,7 @@ const HW13 = () => {
                         setCode('Error')
                         setImage(errorUnknown)                   
                         setDisabledButton('initial');
-                        
+        
                   }
             })  
     }
