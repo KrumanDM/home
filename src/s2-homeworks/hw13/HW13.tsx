@@ -19,30 +19,59 @@ const HW13 = () => {
     const [text, setText] = useState('')
     const [info, setInfo] = useState('')
     const [image, setImage] = useState('')
+    const [disabledButton, setDisabledButton] = useState<boolean | null | undefined | string>('initial');
 
     const send = (x?: boolean | null) => () => {
+        
         const url =
             x === null
                 ? 'https://xxxxxx.ccc' // имитация запроса на не корректный адрес
-                : 'https://incubator-personal-page-back.herokuapp.com/api/3.0/homework/test'
+                : 'https://samurai.it-incubator.io/api/3.0/homework/test'
 
         setCode('')
         setImage('')
         setText('')
         setInfo('...loading')
+        setDisabledButton(x);
 
         axios
             .post(url, {success: x})
             .then((res) => {
+                console.log(res)
                 setCode('Код 200!')
                 setImage(success200)
                 // дописать
-
+                setText(res.data.errorText)
+                setInfo(res.data.info)
+                setDisabledButton('initial');
             })
             .catch((e) => {
-                // дописать
-
+                // дописать       
+                const status = e.response.status
+                setText(e.response?.data?.errorText ||e.message)
+                setInfo(e.response?.data?.info || e.name)
+                //то есть к нам в любом случае придёт этот инфо или текст
+                //не важно что в свиче какой код, только будет меняться путь в котором достаём
+                //const {status, data} = e.response => setText(data?....)
+                switch(status) {
+                    case 500:  
+                      setCode('500')
+                      setImage(error500)
+                      setDisabledButton('initial');
+                      break;                 
+                    case 400: 
+                      setCode('400')
+                      setImage(error400)
+                      setDisabledButton('initial');
+                      break;                    
+                    default:
+                        setCode('Error')
+                        setImage(errorUnknown)                   
+                        setDisabledButton('initial');
+                        
+                  }
             })
+            
     }
 
     return (
@@ -56,7 +85,7 @@ const HW13 = () => {
                         onClick={send(true)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={disabledButton === true}
                     >
                         Send true
                     </SuperButton>
@@ -64,7 +93,7 @@ const HW13 = () => {
                         id={'hw13-send-false'}
                         onClick={send(false)}
                         xType={'secondary'}
-                        // дописать
+                        disabled={disabledButton === false}
 
                     >
                         Send false
@@ -74,7 +103,7 @@ const HW13 = () => {
                         onClick={send(undefined)}
                         xType={'secondary'}
                         // дописать
-
+                        disabled={disabledButton === undefined}
                     >
                         Send undefined
                     </SuperButton>
@@ -83,7 +112,7 @@ const HW13 = () => {
                         onClick={send(null)} // имитация запроса на не корректный адрес
                         xType={'secondary'}
                         // дописать
-
+                        disabled={disabledButton === null}
                     >
                         Send null
                     </SuperButton>
@@ -112,3 +141,10 @@ const HW13 = () => {
 }
 
 export default HW13
+
+
+
+
+  
+
+ 

@@ -12,6 +12,7 @@ import {changeThemeId} from './bll/themeReducer'
 * 4 - передать пропсы в SuperSelect
 * */
 
+
 const themes = [
     {id: 1, value: 'Light'},
     {id: 2, value: 'Blue'},
