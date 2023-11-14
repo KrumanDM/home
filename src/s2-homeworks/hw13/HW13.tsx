@@ -72,8 +72,7 @@ const HW13 = () => {
                         setDisabledButton('initial');
                         
                   }
-            })
-  
+            })  
     }
 
     return (
