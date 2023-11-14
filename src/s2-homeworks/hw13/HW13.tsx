@@ -50,7 +50,6 @@ const HW13 = () => {
                 const status = e.response.status
                 setText(e.response?.data?.errorText ||e.message)
                 setInfo(e.response?.data?.info || e.name)
-    
                 //то есть к нам в любом случае придёт этот инфо или текст
                 //не важно что в свиче какой код, только будет меняться путь в котором достаём
 
