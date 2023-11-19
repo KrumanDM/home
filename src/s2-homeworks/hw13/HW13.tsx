@@ -55,6 +55,7 @@ const HW13 = () => {
                 //не важно что в свиче какой код, только будет меняться путь в котором достаём
 
                 
+
                 //const {status, data} = e.response => setText(data?....)
                 switch(status) {
                     case 500:  
