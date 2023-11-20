@@ -16,7 +16,7 @@ import {useSearchParams} from 'react-router-dom'
 const getTechs = (find: string) => {
     return axios
         .get<{ techs: string[] }>(
-            'https://incubator-personal-page-back.herokuapp.com/api/3.0/homework/test2',
+            'https://samurai.it-incubator.io/api/3.0/homework/test2',
             {params: {find}}
         )
         .catch((e) => {
@@ -35,11 +35,21 @@ const HW14 = () => {
         getTechs(value)
             .then((res) => {
                 // делает студент
-
                 // сохранить пришедшие данные
-
-                //
+                if (res) {
+                    console.log(res);
+                    setTechs(res.data.techs)
+                    setLoading(false)
+                } else {
+                    // обработка случая, когда res является void
+                    console.log('No response from getTechs');
+                }
+    //В этом примере, если res является void, код просто выводит сообщение в консоль 
+    //и не пытается обращаться к res.data.techs. Вы можете заменить console.log('No response from getTechs')
+    //на любой код, который вы хотите выполнить в случае, если getTechs не возвращает ответ.
+                
             })
+            
     }
 
     const onChangeText = (value: string) => {
@@ -48,7 +58,14 @@ const HW14 = () => {
 
         // добавить/заменить значение в квери урла
         // setSearchParams(
-
+            // const newSearchParams = new URLSearchParams(searchParams)
+            // if (value) {
+            //     newSearchParams.set('find', value)
+            // } else {
+            //     newSearchParams.delete('find')
+            // }
+            // setSearchParams(newSearchParams)
+        
         //
     }
 
