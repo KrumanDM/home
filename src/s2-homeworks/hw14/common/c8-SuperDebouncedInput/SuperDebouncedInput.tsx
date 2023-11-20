@@ -45,7 +45,7 @@ const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = (
                 onDebouncedChange(value) // call the function after 1500ms
             }, 1500)
     
-            
+        
             setTimerId(newTimerId) // start a new timer
         }
         
