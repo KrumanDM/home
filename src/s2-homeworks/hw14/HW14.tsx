@@ -57,16 +57,9 @@ const HW14 = () => {
         // делает студент
 
         // добавить/заменить значение в квери урла
-        // setSearchParams(
-            // const newSearchParams = new URLSearchParams(searchParams)
-            // if (value) {
-            //     newSearchParams.set('find', value)
-            // } else {
-            //     newSearchParams.delete('find')
-            // }
-            // setSearchParams(newSearchParams)
-        
-        //
+        setSearchParams({ find: value })
+        //Теперь при изменении значения в поле ввода, 
+        //будет обновляться состояние find и значение параметра find в квери урла.
     }
 
     useEffect(() => {
