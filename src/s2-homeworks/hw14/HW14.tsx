@@ -32,6 +32,7 @@ const HW14 = () => {
 
     const sendQuery = (value: string) => {
         setLoading(true)
+        
         getTechs(value)
             .then((res) => {
                 // делает студент
