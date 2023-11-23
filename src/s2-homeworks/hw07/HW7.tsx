@@ -13,7 +13,7 @@ import s from './HW7.module.css'
 
 const arr = [
     { id: 1, value: 'Dima' },
-    { id: 2, value: 'y' },
+    { id: 2, value: 'Zhenya' },
     { id: 3, value: 'z' },
 ] // value может быть изменено
 
