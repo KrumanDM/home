@@ -20,7 +20,6 @@
     outline: none;
 }
 
-
 .option:hover {
     transition: all 0.2s ease-in-out;
     background: red;
