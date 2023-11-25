@@ -18,7 +18,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
             {open && <div className={s.background} onClick={handleClose}/>}
 
             <aside className={sidebarClass}>
-                
+        
 
                 <nav id={'hw5-menu'} className={s.nav}>
                 <button className={s.close} onClick={handleClose}>
