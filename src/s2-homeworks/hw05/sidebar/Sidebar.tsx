@@ -62,3 +62,4 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
         </>
     )
 }
+
