@@ -64,3 +64,4 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
 }
 
 export default SideBar;
+
