@@ -46,6 +46,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         className= {({isActive}) => (isActive ? s.active : '')}
                         onClick={handleClose}
                     >
+                        
                         Junior
                     </NavLink>
                     <NavLink
