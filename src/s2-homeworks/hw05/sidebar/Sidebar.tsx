@@ -47,6 +47,8 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         onClick={handleClose}
                     >
                         Junior
+
+                        
                     </NavLink>
                     <NavLink
                         id={'hw5-junior-plus-link'}
